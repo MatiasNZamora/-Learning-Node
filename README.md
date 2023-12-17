@@ -73,3 +73,12 @@ Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrone
 - Bot de Discord
 - Netlify Edge Functions
 - Y mucho más.
+
+
+## Deployment
+
+Para que corra el proyecto
+
+```bash
+  npm run dev
+```
