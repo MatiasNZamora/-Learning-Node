@@ -4,8 +4,8 @@
 Estos proyectos fueron creados mediante el curso de [Fernando Herrera](https://fernando-herrera.com/) de Node de 0 a experto.
 
 
-Dentro del curso haremos varias aplicaciones que van desde aplicaciones de consola, receptores de webhooks, Restful API endpoints, autenticación, web sockets y más, trabajando con TypeScript y patrones de desarrollo que nos ayudarán a escribir código de calidad.
-
+Dentro del curso haremos varias aplicaciones que van desde aplicaciones de consola, receptores de webhooks, Restful API endpoints, autenticación, web sockets y más, trabajando con TypeScript y patrones de desarrollo que nos ayudarán a escribir código de calidad.<br>
+Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrones de diseño de la mano con Clean Code.
 
 
 ## Configuraciones necesarias.
