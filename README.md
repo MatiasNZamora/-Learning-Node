@@ -8,6 +8,13 @@ Dentro del curso haremos varias aplicaciones que van desde aplicaciones de conso
 
 
 
+## Configuraciones necesarias.
+
+ - [Typescript con Nodemon](https://github.com/MatiasNZamora/-Learning-Node/issues/2#issue-2045076996)
+ - [Testing con Jest](https://github.com/MatiasNZamora/-Learning-Node/issues/1#issue-2045075865)
+
+
+
 
 ## Puntos que tocamos en el curso:
 
@@ -66,12 +73,3 @@ Dentro del curso haremos varias aplicaciones que van desde aplicaciones de conso
 - Bot de Discord
 - Netlify Edge Functions
 - Y mucho más.
-
-
-
-
-
-## Configuraciones necesarias.
-
- - [Typescript con Nodemon](https://github.com/MatiasNZamora/-Learning-Node/issues/2#issue-2045076996)
- - [Testing con Jest](https://github.com/MatiasNZamora/-Learning-Node/issues/1#issue-2045075865)
