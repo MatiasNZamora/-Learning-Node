@@ -10,8 +10,8 @@ Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrone
 
 ## Configuraciones necesarias.
 
- - [Typescript con Nodemon](https://github.com/MatiasNZamora/-Learning-Node/issues/2#issue-2045076996)
- - [Testing con Jest](https://github.com/MatiasNZamora/-Learning-Node/issues/1#issue-2045075865)
+ - [Typescript con Nodemon](https://gist.github.com/MatiasNZamora/662ca715f9712af90b2de8ec239f118d)
+ - [Testing con Jest](https://gist.github.com/MatiasNZamora/a4893d4873c43a1fb2c1d9ebd4cbd540)
 
 
 
