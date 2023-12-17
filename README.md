@@ -1,48 +1,77 @@
-# Pasos para usar Node con TypeScript con Nodemon
 
-Más información - [Docs Oficiales](https://nodejs.org/en/learn/getting-started/nodejs-with-typescript)
+# NodeJS: de cero a experto
 
-1. Instalar TypeScript y tipos de Node, como dependencia de desarrollo
-```
-npm i -D typescript @types/node
-```
-2. Inicializar el archivo de configuración de TypeScript ( Se puede configurar al gusto)
-```
-npx tsc --init --outDir dist/ --rootDir src
-```
+Estos proyectos fueron creados mediante el curso de [Fernando Herrera](https://fernando-herrera.com/) de Node de 0 a experto.
 
-3. **Opcional** - Para traspilar el código, se puede usar este comando
-```
-npx tsc
-npx tsc --watch
-```
 
-4. Configurar Nodemon y Node-TS
-```
-npm install -D ts-node nodemon
-```
-5. Crear archivo de configuración de Nodemon - **nodemon.json**
-```
-{
-  "watch": ["src"],
-  "ext": ".ts,.js",
-  "ignore": [],
-  "exec": "npx ts-node ./src/app.ts"
-}
-```
-6. Crear script para correr en desarrollo en el **package.json**
-```
-  "dev": "nodemon"
-  "dev": "npx nodemon" // En caso de no querer instalar nodemon
-```
+Dentro del curso haremos varias aplicaciones que van desde aplicaciones de consola, receptores de webhooks, Restful API endpoints, autenticación, web sockets y más, trabajando con TypeScript y patrones de desarrollo que nos ayudarán a escribir código de calidad.
 
-7. Instalar rimraf (Herramienta que funciona similar al rm -f) eliminar directorio
-```
-npm install -D rimraf
-```
 
-8. Crear scripts en el package.json para construir e iniciar en producción
-```
-   "build": "rimraf ./dist && tsc",
-   "start": "npm run build && node dist/app.js"
-```
+
+
+## Puntos que tocamos en el curso:
+
+- Aplicaciones de consola
+- Leer y grabar archivos en File System
+- Code Execution y Event Loop de Node
+- Instalación de paquetes de NPM
+- Patrón adaptador para las dependencias
+- Clean Architecture
+- Domain Driven Design
+- Factory functions para inyección de dependencias en Vanilla JavaScript
+- Axios
+- Interceptores de Axios
+- TypeScript,
+- Interfaces
+- Tipos
+- Clases
+- Testing 
+    - Integración
+    - Unitarias
+    - Restful
+    - Mocks
+    - Espías
+    - Coverage
+    - Más
+- Aplicaciones de consola
+    - Yargs
+    - Leer argumentos desde consola
+    - Variables de entorno
+    - Seeds
+- Bases de datos como
+    - MongoDB
+    - PostgresSQL
+- Github
+- Github Webhooks
+- Tareas automáticas - CRON
+- Repository Pattern
+- Inyección de dependencias
+- Envío de correos
+    - Texto
+    - Html
+    - Gmail
+- Loggers
+- ORMs
+- Prisma
+- Mongoose
+- Despliegue a Railway
+- Rest Server con autenticación
+- WebSockets
+- Json Web Tokens
+- Middlewares
+- Relaciones de base de datos
+- Carga de Archivos
+- Aplicación de Colas - WebSockets + Rest
+- WebHooks y Seguridad
+- Bot de Discord
+- Netlify Edge Functions
+- Y mucho más.
+
+
+
+
+
+## Configuraciones necesarias.
+
+ - [Typescript con Nodemon](https://github.com/MatiasNZamora/-Learning-Node/issues/2#issue-2045076996)
+ - [Testing con Jest](https://github.com/MatiasNZamora/-Learning-Node/issues/1#issue-2045075865)
