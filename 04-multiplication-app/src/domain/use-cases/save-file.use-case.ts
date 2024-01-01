@@ -20,10 +20,10 @@ export class SaveFile implements SaveFileUserCase {
     }: Options):boolean {
         try {
             fs.mkdirSync(fileDestination, { recursive:true });
-            fs.writeFileSync(`${fileDestination}/tabla-${ fileName }.txt`, fileContent);
+            fs.writeFileSync(`${fileDestination}/${ fileName }`, fileContent);
         return true
         } catch (error) {
-            console.error(error);
+            // console.error(error);
             return false
         };
     };

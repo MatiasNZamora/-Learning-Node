@@ -11,7 +11,7 @@ interface RunOptions{
 
 export class ServerApp {
     static run({ base, limit, showTable, fileDestination, fileName }:RunOptions){
-        console.log('Server Runing... ');
+        console.log('Server Runing...');
         const table = new CreateTable().execute({ base, limit });
         const wasCreated = new SaveFile()
         .execute({
