@@ -1,12 +1,11 @@
 
 # NodeJS: de cero a experto
 
-<<<<<<< HEAD
 Esto fue creado mediante el curso de fernando herrera de Node de 0 a experto.
 
 
 Dentro del curso haremos varias aplicaciones que van desde aplicaciones de consola, receptores de webhooks, Restful API endpoints, autenticación, web sockets y más, trabajando con TypeScript y patrones de desarrollo que nos ayudarán a escribir código de calidad.
-=======
+
 Estos proyectos fueron creados mediante el curso de [Fernando Herrera](https://fernando-herrera.com/) de Node de 0 a experto.
 
 
@@ -18,8 +17,7 @@ Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrone
 
  - [Typescript con Nodemon](https://gist.github.com/MatiasNZamora/662ca715f9712af90b2de8ec239f118d)
  - [Testing con Jest](https://gist.github.com/MatiasNZamora/a4893d4873c43a1fb2c1d9ebd4cbd540)
->>>>>>> 63b5989af625c49ee745d5316b86c6dcc001156e
-
+- [Typescript con Ts-node-dev](https://gist.github.com/MatiasNZamora/16850aed890f85c4687d47a4026aaa9c)
 
 
 
@@ -81,16 +79,13 @@ Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrone
 - Netlify Edge Functions
 - Y mucho más.
 
-
-<<<<<<< HEAD
-
-
-=======
 ## Deployment
 
-Para que corra el proyecto
+Para los proyectos con Ts-node-dev:
 
 ```bash
-  npm run dev
+    "dev": "tsnd --respawn --clear src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js"
 ```
->>>>>>> 63b5989af625c49ee745d5316b86c6dcc001156e
+
