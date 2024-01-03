@@ -81,8 +81,18 @@ Se procedió con toda una nueva forma de trabajar con Node, TypeScript y patrone
 
 ## Deployment
 
-Para los proyectos con Ts-node-dev:
+Para los proyectos con Ts-nodemon y Jest:
+```bash
+    "dev": "ts-node src/app.ts ",
+    "dev:nodemon": "nodemon -b 2",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+```
 
+Para los proyectos con Ts-node-dev:
 ```bash
     "dev": "tsnd --respawn --clear src/app.ts",
     "build": "rimraf ./dist && tsc",
